@@ -1,5 +1,5 @@
 {
-    "name": "magento/magento2-module-avatar",
+    "name": "uchenic/magento2-module-avatar",
     "description": "A simple customer avatar module.",
     "type": "magento2-module",
     "version": "0.5.2-stable",
