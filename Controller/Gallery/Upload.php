@@ -90,11 +90,11 @@ class Upload extends \Magento\Framework\App\Action\Action
         // } catch (\Exception $e) {
         //     $result = ['error' => $e->getMessage(), 'errorcode' => $e->getCode()];
         // }
-        echo json_encode($result);
+        //echo json_encode($result);
         /** @var \Magento\Framework\Controller\Result\Raw $response */
-        // $response = $this->resultRawFactory->create();
+        $response = $this->resultForwardFactory->create();
         // $response->setHeader('Content-type', 'text/plain');
         // $response->setContents(json_encode($result));
-        // return $response;
+         return $response->redirect('/*/*/');
     }
 }

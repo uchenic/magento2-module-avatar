@@ -1,6 +1,0 @@
-<block class="Magento\Framework\View\Element\Html\Link\Current" name="customer-account-navigation-address-link">
-                    <arguments>
-                        <argument name="label" xsi:type="string">Address Book</argument>
-                        <argument name="path" xsi:type="string">customer/address</argument>
-                    </arguments>
-                </block>

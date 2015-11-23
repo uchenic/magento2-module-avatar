@@ -1,6 +1,6 @@
 <?php 
 namespace Maento\Avatar\Model\Resource\Avatar;
-use \Magento\Framework\Model\Resource\Db\Collection\AbstractCollection;
+use \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 class Collection extends AbstractCollection
 {

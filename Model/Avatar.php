@@ -18,7 +18,7 @@ class Avatar  extends \Magento\Framework\Model\AbstractModel //implements  Ident
         \Magento\Framework\Registry $registry,
         \Magento\Framework\UrlInterface $urlBuilder,
         \Magento\Framework\Image\Factory $imageFactory,
-        \Magento\Framework\Model\Resource\AbstractResource $resource = null,
+        \Magento\Framework\Model\ResourceModel\AbstractResource $resource = null,
         \Magento\Framework\Data\Collection\AbstractDb $resourceCollection = null,
         array $data = [])
     {
